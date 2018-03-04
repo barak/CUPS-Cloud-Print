@@ -1,7 +1,0 @@
-#! /bin/bash -e
-
-if [[ -f /usr/local/share/cloudprint-cups/refreshtokens.py ]]; then
-	/usr/local/share/cloudprint-cups/refreshtokens.py
-else
-	/usr/share/cloudprint-cups/refreshtokens.py
-fi
