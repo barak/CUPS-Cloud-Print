@@ -1,0 +1,4 @@
+this directory have to be named eg. "cupscloudprint-20160502"
+then run:
+dpkg-buildpackage -b -rfakeroot -us -uc
+
