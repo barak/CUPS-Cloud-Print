@@ -1,0 +1,7 @@
+/*.substvars
+/.debhelper/
+/autoreconf.after
+/autoreconf.before
+/cupscloudprint/
+/debhelper-build-stamp
+/files

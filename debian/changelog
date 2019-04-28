@@ -1,3 +1,9 @@
+cupscloudprint (20160502-2) unstable; urgency=medium
+
+  * Update packaging scripts
+
+ -- Barak A. Pearlmutter <bap@debian.org>  Sun, 28 Apr 2019 20:17:20 +0100
+
 cupscloudprint (20160502-1) precise; urgency=high
 
   * New: Use CCD instead of ( now broken ) old legacy format
