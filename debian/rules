@@ -4,3 +4,10 @@
 export DH_VERBOSE=1
 %:
 	dh $@
+
+override_dh_auto_install:
+	dh_auto_install
+	-rm --verbose debian/cupscloudprint/usr/share/cloudprint-cups/README.md
+	-rm --verbose debian/cupscloudprint/usr/share/cloudprint-cups/COPYING
+	-rmdir --verbose debian/cupscloudprint/usr/share/cups/model
+	-rmdir --verbose debian/cupscloudprint/usr/share/cups

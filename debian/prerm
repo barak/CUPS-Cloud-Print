@@ -1,6 +1,10 @@
-#! /bin/bash -e
+#! /bin/bash
+
+set -e
 
 if [[ $1 == "remove" ]]; then
         unlink /etc/cron.daily/cupscloudprint
 fi
-find /usr/share/cloudprint-cups/ -name *.pyc -type f -delete
+find /usr/share/cloudprint-cups/ -name '*.pyc' -type f -delete
+
+#DEBHELPER#
